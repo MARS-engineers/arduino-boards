@@ -55,7 +55,7 @@ RoverOneV0.build.core=rp2040:rp2040
 RoverOneV0.build.ldscript=memmap_default.ld
 RoverOneV0.build.boot2=boot2_generic_03h_4_padded_checksum
 RoverOneV0.build.usb_manufacturer="RoverOneV0"
-RoverOneV0.build.usb_product="RP2040"
+RoverOneV0.build.usb_product="Robotrix Rover One V1"
 RoverOneV0.ipbtstack.ipv4only=IPv4 Only
 RoverOneV0.ipbtstack.ipv4only.build.libpicow=liblwip.a
 RoverOneV0.ipbtstack.ipv4only.build.libpicowdefs=-DLWIP_IPV6=0 -DLWIP_IPV4=1
@@ -247,7 +247,7 @@ RoverOneV2.build.core=rp2040:rp2040
 RoverOneV2.build.ldscript=memmap_default.ld
 RoverOneV2.build.boot2=none
 RoverOneV2.build.usb_manufacturer="MARS-Engineers"
-RoverOneV2.build.usb_product="Robotix Rover One V2"
+RoverOneV2.build.usb_product="Robotrix Rover One V2"
 
 RoverOneV2.build.flags.exceptions=-fno-exceptions
 RoverOneV2.build.flags.libstdcpp=-lstdc++
